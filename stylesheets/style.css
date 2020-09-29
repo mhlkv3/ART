@@ -2,7 +2,7 @@ body {
   background-color: black;
   }
 
-.circle1{
+.square1{
   width: 200px;
   height: 200px;
   margin: 100px auto;
@@ -25,7 +25,11 @@ body {
   }
 }
 
-.square-r {
+.square1:hover {
+  background: red;
+}
+
+.square-w {
   width: 100px;
   height: 100px;
   margin: 100px auto;
@@ -50,7 +54,13 @@ body {
   }
 }
 
-.circle2 {
+.square-w:hover {
+  background: white;
+  transform:;
+}
+
+
+.square2 {
   width: 200px;
   height: 200px;
   margin: 100px auto;
@@ -70,4 +80,8 @@ body {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.square2:hover {
+  background: red;
 }
